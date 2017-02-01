@@ -1,0 +1,108 @@
+[
+  {
+    "keyword": "Feature",
+    "line": 1,
+    "name": "Google Search",
+    "tags": [],
+    "uri": "/home/felipe-oliveira/Desktop/cucumberjs/features/google_search.feature",
+    "elements": [
+      {
+        "keyword": "Scenario",
+        "line": 3,
+        "name": "Searching Google",
+        "tags": [],
+        "id": "google-search;searching-google",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "I open Google`s search page",
+            "result": {
+              "status": "passed",
+              "duration": 5349
+            },
+            "line": 5,
+            "match": {
+              "location": "/home/felipe-oliveira/Desktop/cucumberjs/features/step_definitions/step.js:5"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "the title is \"Google\"",
+            "result": {
+              "status": "passed",
+              "duration": 12
+            },
+            "line": 6,
+            "match": {
+              "location": "/home/felipe-oliveira/Desktop/cucumberjs/features/step_definitions/step.js:11"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "the Google search form exists",
+            "result": {
+              "status": "passed",
+              "duration": 52
+            },
+            "line": 7,
+            "match": {
+              "location": "/home/felipe-oliveira/Desktop/cucumberjs/features/step_definitions/step.js:15"
+            }
+          }
+        ]
+      },
+      {
+        "keyword": "Scenario",
+        "line": 9,
+        "name": "Searching Google again",
+        "tags": [],
+        "id": "google-search;searching-google-again",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "I open Google`s search page",
+            "result": {
+              "status": "passed",
+              "duration": 1006
+            },
+            "line": 11,
+            "match": {
+              "location": "/home/felipe-oliveira/Desktop/cucumberjs/features/step_definitions/step.js:5"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "the title is \"Google\"",
+            "result": {
+              "status": "passed",
+              "duration": 9
+            },
+            "line": 12,
+            "match": {
+              "location": "/home/felipe-oliveira/Desktop/cucumberjs/features/step_definitions/step.js:11"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "the Google search form exists",
+            "result": {
+              "status": "passed",
+              "duration": 37
+            },
+            "line": 13,
+            "match": {
+              "location": "/home/felipe-oliveira/Desktop/cucumberjs/features/step_definitions/step.js:15"
+            }
+          }
+        ]
+      }
+    ],
+    "id": "google-search"
+  }
+]
